@@ -49,7 +49,6 @@ comprises 9,645 images, from 42 sequences.
 the belt cracks under multiple perspectives (top-down, bottom-up), varying the lighting
 conditions from morning strong light to evening low illumination, extreme weather
 (sunny, rainy, snowy), and dynamic belt moving speeds.
-- They will
 
 ## 🔑Method
 
