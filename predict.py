@@ -9,9 +9,7 @@ import numpy as np
 from PIL import Image
 
 from yolo import YOLO as model
-#from nets.
-
-# from train_RCU3 import slowfastnet as model
+# from train_BeltCrackDet import slowfastnet as model
 
 
 
@@ -27,8 +25,7 @@ if __name__ == "__main__":
     #   'heatmap'           表示进行预测结果的热力图可视化，详情查看下方注释。
     #   'export_onnx'       表示将模型导出为onnx，需要pytorch1.7.1以上。
     #----------------------------------------------------------------------------------------------------------#
-    # mode = "dir_predict"
-    mode = "heatmap"
+    mode = "predict"
     #-------------------------------------------------------------------------#
     #   crop                指定了是否在单张图片预测后对目标进行截取
     #   count               指定了是否进行目标的计数
@@ -56,14 +53,14 @@ if __name__ == "__main__":
     #   test_interval和fps_image_path仅在mode='fps'有效
     #----------------------------------------------------------------------------------------------------------#
     test_interval   = 100
-    fps_image_path  = "/home/hjh/桌面/two_m5/imgs/85_0.jpg"
+    fps_image_path  = "/home/hjh/BeltCrackDet/imgs/85_0.jpg"
     #-------------------------------------------------------------------------#
     #   dir_origin_path     指定了用于检测的图片的文件夹路径
     #   dir_save_path       指定了检测完图片的保存路径
     #   
     #   dir_origin_path和dir_save_path仅在mode='dir_predict'时有效
     #-------------------------------------------------------------------------#
-    dir_origin_path = "/home/hjh/桌面/two_m5/imgs"
+    dir_origin_path = "/home/hjh/BeltCrackDet/imgs"
     dir_save_path   = "img_out/"
     #-------------------------------------------------------------------------#
     #   heatmap_save_path   热力图的保存路径，默认保存在model_data下
@@ -112,17 +109,12 @@ if __name__ == "__main__":
         fps = 0.0
         while(True):
             t1 = time.time()
-            # 读取某一帧
             ref, frame = capture.read()
             if not ref:
                 break
-            # 格式转变，BGRtoRGB
             frame = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
-            # 转变成Image
             frame = Image.fromarray(np.uint8(frame))
-            # 进行检测
             frame = np.array(yolo.detect_image(frame))
-            # RGBtoBGR满足opencv显示格式
             frame = cv2.cvtColor(frame,cv2.COLOR_RGB2BGR)
             
             fps  = ( fps + (1./(time.time()-t1)) ) / 2
