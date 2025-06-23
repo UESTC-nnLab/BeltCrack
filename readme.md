@@ -28,13 +28,13 @@
 
 
 
-## 📣 News
+## 📢 News
 
 - **2025-06-23**: The official Pytorch implementation for **BeltCrackDet** is publicly available in this repository 📦!
 - **2025-06-23**: Our industrial belt crack datasets are released for public 🎁!
 - **2025-06-21**: We have released our technical report to ArXiv 📤.
 
-## 📜 Datasets Overview
+## 📊 Datasets Overview
 
 ### Download
 
@@ -50,7 +50,7 @@ the belt cracks under multiple perspectives (top-down, bottom-up), varying the l
 conditions from morning strong light to evening low illumination, extreme weather
 (sunny, rainy, snowy), and dynamic belt moving speeds.
 
-## 🔑Method
+## 🔑 Method
 
 <p align="center">
     <img src="./images/method.png" alt="method" style="width:80%">
@@ -59,7 +59,7 @@ We propose a tri-path network architecture to implement cross-domain representat
 
 
 
-##  🎫Getting started
+## 🔱 Getting started
 
 ### Enviroment
 
