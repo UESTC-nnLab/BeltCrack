@@ -110,6 +110,9 @@ The visualization results of our comparative experiments are as follows:
 - [🟢 Complete] **Add visualization of experiment results in readme**
 - [🟡 In Progress] **Submit original manuscripts to Pattern Recognition**
 
+## 🏷️License
+
+This project is released under the [**Apache 2.0**](https://www.apache.org/licenses/) license.
 
 
 ## 📧 Concat
