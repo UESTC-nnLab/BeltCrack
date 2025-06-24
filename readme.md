@@ -26,13 +26,17 @@
 </div> 
 
 
+<div align="center">
+  <a href="https://www.apache.org/licenses/" style="margin-left:15px;"><img src="https://img.shields.io/badge/License-Apache%202.0-yellow" alt="License" style="height:30px;"></a>
+</div>
+
 
 
 ## 📢 News
 
 - **2025-06-23**: The official Pytorch implementation for **BeltCrackDet** is publicly available in this repository 📦!
 - **2025-06-23**: Our industrial belt crack datasets are released for public 🎁!
-- **2025-06-21**: We have released our technical report to ArXiv 📤.
+- **2025-06-22**: We have released our technical report to ArXiv, [here](http://arxiv.org/abs/2506.17892)  📤.
 
 ## 📊 Datasets Overview
 
