@@ -42,8 +42,8 @@
 
 ### Download
 
-- You can get the **BeltCrack14ks** from Quark Disk in this [link](https://pan.quark.cn/s/8d6d8d467d9c) with password: **fUTU**
-- You can get the **BeltCrack9kd** from Quark Disk in this [link](https://pan.quark.cn/s/1301b216c9e7) with password: **E1St**
+- You can get the **BeltCrack14ks** when our article is accepted.
+- You can get the **BeltCrack9kd** when our article is accepted
 
 ### Caption
 
@@ -108,7 +108,7 @@ The visualization results of our comparative experiments are as follows:
 ## 🗓️ TODO
 
 - [🟢 Complete] **arXiv preprint release** 
-- [🟢 Complete] **Open datasets to public** 
+- [🟢 Complete] **Open datasets** 
 - [🟢 Complete] **Open source code at this repository**
 - [🟢 Complete] **Add a description of our datastes and baseline in readme**
 - [🟢 Complete] **Add visualization of experiment results in readme**
