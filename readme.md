@@ -22,7 +22,7 @@
   <a href="#"><img src="https://img.shields.io/badge/type-dataset-blue"></a>
   <a href="#"><img src="https://img.shields.io/badge/task-anomaly%20detection-purple"></a>
   <a href="#"><img src="https://img.shields.io/badge/domain-industrial%20inspection-green"></a>
-  <a href="https://github.com/YOUR_REPO"><img src="https://img.shields.io/github/stars/YOUR_REPO?style=social"></a>
+  <a href="https://github.com/UESTC-nnLab/BeltCrack"><img src="https://img.shields.io/github/stars/UESTC-nnLab/BeltCrack?style=social"></a>
   <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-yellow"></a>
 </p>
 
