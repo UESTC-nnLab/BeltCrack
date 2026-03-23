@@ -31,13 +31,13 @@
 
 - **2025-06-22**: The paper is now available on arXiv: http://arxiv.org/abs/2506.17892 📰
 - **2025-06-23**: BeltCrackDet PyTorch code and datasets are released 🎁!
-.
+- **2026-03-21**: Accepted by ![PR](https://img.shields.io/badge/Pattern%20Recognition-red) 🥂🥂🥂
 
 ## 📊 Datasets Overview <a name="overview"></a>
 
 ### Download
 
-BeltCrack14ks and BeltCrack9kd will be available for download upon article acceptance.
+BeltCrack14ks and BeltCrack9kd will be available for download in this week.
 
 ### Caption
 
