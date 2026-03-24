@@ -37,7 +37,7 @@
 
 ### Download
 
-BeltCrack14ks and BeltCrack9kd will be available for download in this week.
+BeltCrack14ks and BeltCrack9kd will be available for download in this week (2026.03.23 updated).
 
 ### Caption
 
