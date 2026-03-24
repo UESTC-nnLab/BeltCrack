@@ -13,7 +13,7 @@
   <a href="#news">News</a> •
   <a href="#overview">Datasets Overview</a> •
   <a href="#method">Method</a> •
-  <a href="#start">start</a> •
+  <a href="#start">Start</a> •
   <a href="#email">Email</a>
 </p>
 
@@ -31,7 +31,7 @@
 
 - **2025-06-22**: The paper is now available on arXiv: http://arxiv.org/abs/2506.17892 📰
 - **2025-06-23**: BeltCrackDet PyTorch code and datasets are released 🎁!
-- **2026-03-21**: Accepted by ![PR](https://img.shields.io/badge/Pattern%20Recognition-red) 🥂🥂🥂
+- **2026-03-21**: Accepted by ![PR](https://img.shields.io/badge/Pattern%20Recognition-red) : https://doi.org/10.1016/j.patcog.2026.113598 🥂🥂🥂
 
 ## 📊 Datasets Overview <a name="overview"></a>
 
@@ -99,11 +99,6 @@ The visualization results of our comparative experiments are as follows:
     <img src="./images/visual2.png" alt="visual"  style="width:80%"/>
 </p>
 
-## 🗓️ TODO
-
-- [🟢 Complete] **Release arXiv paper** 
-- [🟢 Complete] **Release datasets and source code** 
-- [🟢 Complete] **Under review at *Pattern Recognition* (1st-round reviews completed)**
 
 ## 📧 Email <a name="email"></a>
 If you have any questions, contact me via email (**with the subject of BeltCrack**): jianghong@std.uestc.edu.cn
@@ -113,4 +108,19 @@ If you have any questions, contact me via email (**with the subject of BeltCrack
 This project is released under the [**Apache 2.0**](https://www.apache.org/licenses/) license.
 
 
+## 📖 Citation
+
+If you find our datasets and work useful for your research, please consider citing our paper:
+
+```bibtex
+@article{HUANG2026113598,
+    title = {BeltCrack: the First Sequential-image Industrial Conveyor Belt Crack Detection Dataset and Its Baseline with Triple-domain Feature Learning},
+    author = {Jianghong Huang and Luping Ji and Xin Ma and Mao Ye},
+    journal = {Pattern Recognition},
+    pages = {113598},
+    year = {2026},
+    issn = {0031-3203},
+    doi = {https://doi.org/10.1016/j.patcog.2026.113598},
+    url = {https://www.sciencedirect.com/science/article/pii/S0031320326005649}
+}
 
