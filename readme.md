@@ -29,20 +29,37 @@
 
 ## 📢 News <a name="news"></a>
 
-- **2025-06-22**: The paper is now available on arXiv: http://arxiv.org/abs/2506.17892 📰
-- **2025-06-23**: BeltCrackDet PyTorch code and datasets are released 🎁!
+- **2025-06-22**: The paper is now available on arXiv: http://arxiv.org/abs/2506.17892 
+- **2025-06-23**: BeltCrackDet PyTorch code are released!
 - **2026-03-21**: Accepted by ![PR](https://img.shields.io/badge/Pattern%20Recognition-red) : https://doi.org/10.1016/j.patcog.2026.113598 🥂🥂🥂
+- **2026-03-27**：BeltCrack datasets is now officially available on **ScienceDB**. 🎉🎉🎉
 
 ## 📊 Datasets Overview <a name="overview"></a>
 
 ### Download
 
-BeltCrack14ks and BeltCrack9kd will be available for download in this week (2026.03.23 updated).
+- 🔗 **Download Link:** https://doi.org/10.57760/sciencedb.31181
+
+- 📖 **Citation:** If you use this dataset in your research, please kindly cite our paper:
+```bibtex
+    @article{HUANG2026113598,
+      title = {BeltCrack: the First Sequential-image Industrial Conveyor Belt Crack Detection Dataset and Its Baseline with Triple-domain Feature Learning},
+      author = {Jianghong Huang and Luping Ji and Xin Ma and Mao Ye},
+      journal = {Pattern Recognition},
+      pages = {113598},
+      year = {2026},
+      issn = {0031-3203},
+      doi = {https://doi.org/10.1016/j.patcog.2026.113598},
+      url = {https://www.sciencedirect.com/science/article/pii/S0031320326005649}
+    }
+```
+
+
 
 ### Caption
 
-- The dataset BeltCrack14ks contains 14,087 images, across 29 sequences. While BeltCrack9kd
-comprises 9,645 images, from 42 sequences. 
+- The dataset **BeltCrack14ks** contains **14,087** images, across **29** sequences. While **BeltCrack9kd**
+comprises **9,645** images, from **42** sequences. 
 - They are captured in real-world industrial environments, including conveyor
 the belt cracks under multiple perspectives (top-down, bottom-up), varying the lighting
 conditions from morning strong light to evening low illumination, extreme weather
@@ -95,9 +112,6 @@ The visualization results of our comparative experiments are as follows:
 <p align="center">
     <img src="./images/visual.png" alt="visual" style="width:80%"/>
 </p>
-<p align="center">
-    <img src="./images/visual2.png" alt="visual"  style="width:80%"/>
-</p>
 
 
 ## 📧 Email <a name="email"></a>
@@ -106,21 +120,4 @@ If you have any questions, contact me via email (**with the subject of BeltCrack
 ## 🏷️License
 
 This project is released under the [**Apache 2.0**](https://www.apache.org/licenses/) license.
-
-
-## 📖 Citation
-
-If you find our datasets and work useful for your research, please consider citing our paper:
-
-```bibtex
-@article{HUANG2026113598,
-    title = {BeltCrack: the First Sequential-image Industrial Conveyor Belt Crack Detection Dataset and Its Baseline with Triple-domain Feature Learning},
-    author = {Jianghong Huang and Luping Ji and Xin Ma and Mao Ye},
-    journal = {Pattern Recognition},
-    pages = {113598},
-    year = {2026},
-    issn = {0031-3203},
-    doi = {https://doi.org/10.1016/j.patcog.2026.113598},
-    url = {https://www.sciencedirect.com/science/article/pii/S0031320326005649}
-}
 
