@@ -38,7 +38,7 @@
 
 ### Download
 
-- 🔗 **Download Link:** https://doi.org/10.57760/sciencedb.31181
+- 🔗 **Download Link:** https://doi.org/10.57760/sciencedb.31181           **Unzip Password:** cv205
 
 - 📖 **Citation:** If you use this dataset in your research, please kindly cite our paper:
 ```bibtex
